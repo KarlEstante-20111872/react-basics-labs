@@ -25,6 +25,37 @@ h1 {
   color: red;
 }
 
+input[type=text], input[type=date] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+form {
+  text-align: left;
+  width: 50%;
+  margin: auto;
+}
+
 button {
   border: none;
   border-radius: 3px;
@@ -49,13 +80,32 @@ button {
 }
 
 .priority {
-  font-weight: 300;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .div {
   padding: 20px;
 }
 
+.priority-color {
+  color: white;
+  padding: 8px 16px;
+  border-radius: 6px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.priority-High {
+  background-color: red;
+}
+
+.priority-Medium {
+  background-color: goldenrod;
+}
+
+.priority-Low {
+  background-color: green;
+}
 
 
 .card {
