@@ -4,7 +4,11 @@ const Task = (props) => {
         <div className="card">
             <p className="title">{props.title}</p>
             <p>Due: {props.deadline}</p>
+            <p>{props.description}</p>
+            <p>{props.priority}</p>
             <p>{props.children}</p>
+            <button className='deleteButton' onClick={props.deleteTask}>Delete</button>
+            <button onClick={props.markDone} className='doneButton'>Done</button>
         </div>
     )
 }

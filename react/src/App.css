@@ -18,12 +18,39 @@ h1 {
   font-family: fantasy;
 }
 
+.deleteButton {
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+  color: red;
+}
+
+button {
+  border: none;
+  border-radius: 3px;
+  font-style: italic;
+  font-size: 0.8em;
+  margin: 4px 6px;
+  width: 50px;
+  height: 25px;
+}
+
+.doneButton {
+  position: absolute;
+  bottom: 5px;
+  left: 5px;
+  color: green;
+}
+
 .title {
   font-weight: bold;
   font-size: 1.2em; 
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+.priority {
+  font-weight: 300;
+}
 
 .div {
   padding: 20px;
